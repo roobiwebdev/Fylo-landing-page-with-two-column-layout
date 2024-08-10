@@ -13,6 +13,11 @@ Users should be able to:
 
 ### Screenshot
 
+![desktop-design](https://github.com/user-attachments/assets/3e33f127-c4cf-4748-a5a3-d3e577b7af45)
+
+
+
+
 ### Links
 
 - Solution URL: [Link](https://github.com/roobiwebdev/Fylo-landing-page-with-two-column-layout)
