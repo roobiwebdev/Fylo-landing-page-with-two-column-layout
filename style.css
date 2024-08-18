@@ -19,7 +19,7 @@
 body {
   background: #ffffff;
   color: var(--primary-color);
-  font-size: 1rem;
+  font-size: 16px;
   font-family: "Raleway", sans-serif;
   height: auto;
 }
@@ -27,12 +27,12 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 3em 4em 4em;
+  margin: 4em 5em 0 5em;
 }
 
 nav ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
@@ -40,43 +40,45 @@ nav ul li {
   list-style: none;
   cursor: pointer;
   margin-right: 4em;
-  font-size: 1.2rem;
+  font-size: 1rem;
+}
+
+nav ul li:last-child {
+  margin: -0.9em;
 }
 
 header {
-  height: 85vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 3.5em;
-  margin: 3% 0 5% 0;
+  padding: 0 4.9em;
+  margin-bottom: 10.5em;
 }
 
-.head {
-  width: 75%;
-}
 .sub-title {
   font-size: 2.5rem;
-  font-weight: bolder;
-  margin-bottom: 0.7em;
+  line-height: 60px;
+  margin-bottom: 0.35em;
+  margin-top: -0.3em;
 }
 
 .disc {
   font-size: 1.125rem;
   font-weight: 500;
-  margin-bottom: 1.5em;
-  line-height: 1.4em;
+  width: 90%;
+  line-height: 1.5em;
+  margin-bottom: 1em;
 }
 
 .input {
-  width: 20em;
-  height: 2.5em;
-  padding: 0.5em 1em;
+  padding: 13px 104px;
+  padding-left: 20px;
   font-size: 1rem;
   border: 1px solid gray;
   border-radius: 3px;
   outline: none;
-  margin-right: 1em;
+  margin-right: 0.8em;
   margin-bottom: 1em;
 }
 
@@ -84,11 +86,9 @@ header {
   color: rgb(153, 153, 153);
 }
 .btn {
-  width: 12em;
-  height: 2.5em;
-  padding: 0.5em 1em;
+  padding: 13px 60px;
   font-size: 1rem;
-  font-weight: bold;
+  text-align: center;
   cursor: pointer;
   background: #205cff;
   color: #fefeff;
@@ -100,6 +100,7 @@ header {
 .btn:hover {
   background: #4872e7;
 }
+
 .imgs img {
   width: 100%;
 }
@@ -115,12 +116,16 @@ header {
 main {
   height: auto;
   background: hsl(240, 50%, 98%);
+  margin: 0 1.7em;
 }
 
-.discription {
-  width: 50%;
+.discription .sub-title {
+  margin-bottom: 30px;
 }
-
+.discription .disc {
+  width: 73%;
+  font-size: 16px;
+}
 .content {
   display: flex;
   justify-content: space-between;
@@ -130,8 +135,6 @@ main {
 
 .link {
   color: rgb(27, 199, 27);
-  font-size: 1.2rem;
-  font-weight: 500;
   transition: all 0.3s ease-in-out;
 }
 
@@ -140,39 +143,44 @@ main {
 }
 
 .card {
-  width: 60%;
+  width: 355px;
   height: auto;
-  font-size: 1.1rem;
-  margin-top: 2em;
-  background-color: rgb(255, 255, 255);
+  font-size: 14px;
+  margin-top: 3.2em;
+  background-color: #ffffff;
   box-shadow: 5px 5px 10px rgba(201, 201, 201, 0.801);
   border-radius: 6px;
-  margin-bottom: 10%;
+  margin-bottom: 13%;
 }
 
 .more {
-  padding: 1em 1.5em;
+  padding: 2em 2em;
 }
-
+.more img {
+  margin-bottom: 1em;
+}
+.more p {
+  line-height: 20px;
+}
 .profile {
   display: flex;
-  justify-self: center;
+  justify-content: flex-start;
   align-items: center;
-  margin: 1em 0;
+  text-align: start;
+  margin-top: 1.3em;
 }
-
 .profile img {
-  width: 60px;
-  height: 60px;
+  width: 34px;
+  height: 34px;
   border-radius: 50%;
-  margin-right: 1em;
+  margin-right: 0.7em;
 }
-
 .name {
-  font-size: 1rem;
+  margin-bottom: 7px;
+  font-size: 13px;
 }
 .name span {
-  font-size: 0.8rem;
+  font-size: 9px;
 }
 
 section {
@@ -182,7 +190,8 @@ section {
 }
 
 section .content {
-  padding: 5em 3.5em;
+  padding: 6.5em 5em;
+  padding-bottom: 4.6em;
   color: #ffffff;
 }
 
@@ -190,28 +199,40 @@ section .content {
   width: 70%;
 }
 .box-1 h2 {
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: bold;
   margin-bottom: 0.7em;
 }
 
 .box-1 p {
   color: #e2e2e2;
-  font-weight: 500;
+  font-size: 15px;
   margin-bottom: 1.5em;
-  line-height: 1.3em;
+  line-height: 1.4em;
   letter-spacing: 1px;
 }
 .box-2 {
-  width: 50%;
+  width: 47%;
 }
 .box-2 .input {
-  width: 90%;
-  padding: 1.2em 1.2em;
-  margin-bottom: 1em;
+  width: 96%;
+  padding: 1em 1.1em;
+  margin-top: -1.7em;
+  font-size: 1rem;
   display: block;
 }
 
+.box-2 .btn {
+  padding: 14px 32px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  background: #2e65f8;
+  color: #fefeff;
+  border: none;
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+}
 footer {
   height: auto;
   background: var(--primary-color);
@@ -219,27 +240,19 @@ footer {
 }
 
 footer .content {
-  padding: 6em 3.5em;
+  padding: 7em 7em 6em 5.2em;
   display: flex;
-  justify-content: space-between;
   align-items: flex-start;
 }
 
-.brand .logo {
-  filter: invert(100%);
-}
 .brand p {
   margin: 1em 0;
-}
-
-p span {
-  margin-right: 1em;
 }
 
 .about,
 .contact,
 .social {
-  margin-top: 4.6em;
+  margin-top: 5em;
 }
 
 .about,
@@ -252,15 +265,16 @@ p {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+  margin-right: 4em;
 }
 .social li {
-  font-size: 1.5rem;
+  font-size: 1rem;
   list-style: none;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
+  width: 37px;
+  height: 37px;
   border: 1px solid #ffffff;
   border-radius: 50%;
   margin: 0 0.5em;
