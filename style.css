@@ -27,7 +27,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 4em 5em -3em 5em;
+  margin: 4em 5em -2.8em 5em;
 }
 
 nav ul {
@@ -121,6 +121,7 @@ main {
 
 .discription .sub-title {
   margin-bottom: 30px;
+  margin-top: -.5em;
 }
 .discription .disc {
   width: 73%;
@@ -193,6 +194,8 @@ section .content {
   padding: 6.5em 5em;
   padding-bottom: 4.6em;
   color: #ffffff;
+  margin-top: -1em;
+
 }
 
 .box-1 {
