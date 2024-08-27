@@ -27,7 +27,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 4em 5em 0 5em;
+  margin: 4em 5em -3em 5em;
 }
 
 nav ul {
