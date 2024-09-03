@@ -202,9 +202,15 @@
     .box-2 .input {
       width: 100%;
       margin-left: 0;
+    } 
+
+    main {
+      margin: 0;
+      width: 100%;
     }
     main .content{
       margin: 0;
+      width: 100%;
     }
     footer .content {
       display: flex;
