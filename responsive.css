@@ -203,7 +203,9 @@
       width: 100%;
       margin-left: 0;
     }
-
+    main .content{
+      margin: 0;
+    }
     footer .content {
       display: flex;
       flex-direction: column;
